@@ -1,0 +1,31 @@
+size(1000,700);
+
+beginShape();
+fill(128,128,128);
+vertex(150, 145);
+vertex(175, 120);
+vertex(175, 135);
+vertex(850, 135);
+vertex(850, 150);
+vertex(175, 150);
+vertex(175, 165);
+vertex(150, 145);
+endShape();
+
+fill(255,204,213);
+ellipse(225,415,200,125);
+ellipse(775,415,200,125);
+ellipse(500,350,600,600);
+fill(255,51,87);
+ellipse(650,610,200,100);
+ellipse(350,610,200,100);
+fill(0);
+ellipse(400,250,100,200);
+ellipse(600,250,100,200);
+fill(255);
+ellipse(400,270,20,35);
+ellipse(600,270,20,35);
+fill(255,153,171);
+ellipse(325,375,50,25);
+ellipse(675,375,50,25);
+arc(500,425,100,100,QUARTER_PI*8,QUARTER_PI*12);
